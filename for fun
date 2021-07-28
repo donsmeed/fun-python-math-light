@@ -1,7 +1,7 @@
 # a simple planck's constant funcion. To get quanta or packets of energy emited by frequency
 #E = h(plank's constant)* f(the amount of radiation absorbed or emitted)
 
-import scipy
+from scipy.constants import Planck
 def planckQuan(f):
     e = Planck * f
     return e
